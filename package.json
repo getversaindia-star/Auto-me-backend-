@@ -1,8 +1,17 @@
 {
   "name": "auto-me-backend",
-  "type": "module",
+  "version": "1.0.0",
+  "description": "Backend for Auto Me Instagram Automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "express": "^4.19.2",
-    "axios": "^1.6.8"
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
